@@ -30,11 +30,11 @@ jobs:
         
     - name: Install Yarn
     - uses: borales/actions-yarn@v2.0.0
-        with:
+      with:
           cmd: install # will run `yarn install` command
           
     - name: Start Yarn Build
-     run: yarn build
+      run: yarn build
      
     - name: Install Surge
       run: npm install - g surge
