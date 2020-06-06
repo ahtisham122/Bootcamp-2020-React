@@ -10,9 +10,6 @@ function App() {
         <p>
           Hello World from Ahtisham (PIAIC-73937).
         </p>
-        <p>
-          Testing.
-        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
