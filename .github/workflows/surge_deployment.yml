@@ -39,7 +39,7 @@ jobs:
       run: npm install -g surge
       
     - name: Deploy To Surge
-      run: surge ./build bootcamp-2020-react.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./build bootcamp-2020-react-piaic.surge.sh --token ${{ secrets.SURGE_TOKEN }}
       
       
    
